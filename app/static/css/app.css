@@ -5,3 +5,38 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.news__list {
+    display: grid;
+    width: 475px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    list-style: none;
+}
+
+.news__list h4 {
+    color: dodgerblue;
+}
+
+.news__list p {
+    color: gray;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 0.7em;
+}
+
+.news__item {
+    padding: 20px;
+}
+
+.news__item img {
+    width: 220px;
+}
+
+.form-inline .sTerm {
+    color: limegreen;
+}
